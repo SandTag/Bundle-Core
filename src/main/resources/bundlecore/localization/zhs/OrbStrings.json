@@ -1,0 +1,21 @@
+{
+  "${modID}:OrbID": {
+    "NAME": "Orb Name",
+    "DESCRIPTION": [
+      "#yPassive: At the start of your turn, draw #b",
+      " card.",
+      " cards.",
+      " NL #yEvoke: Deal #b",
+      " damage to all enemies."
+    ]
+  },
+
+  "bundlecore:TerraSlimeOrb": {
+    "NAME": "Slime",
+    "DESCRIPTION": [
+      "#y被动：你的回合结束时，对一名随机敌人造成 #b",
+      "点伤害。",
+      " NL #y激发 ：获得 #b1 个 #y充能球 槽位并 #y生成这个 #y充能球 [REMOVE_SPACE]。"
+    ]
+  }
+}

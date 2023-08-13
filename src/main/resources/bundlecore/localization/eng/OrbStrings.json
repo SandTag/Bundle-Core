@@ -1,0 +1,21 @@
+{
+  "${modID}:OrbID": {
+    "NAME": "Orb Name",
+    "DESCRIPTION": [
+      "#yPassive: At the start of your turn, draw #b",
+      " card.",
+      " cards.",
+      " NL #yEvoke: Deal #b",
+      " damage to all enemies."
+    ]
+  },
+
+  "${modID}:TerraSlimeOrb": {
+    "NAME": "Slime",
+    "DESCRIPTION": [
+      "#yPassive: At the end of your turn, deal #b",
+      " damage to a random enemy.",
+      " NL #yEvoke: Gain #b1 orb slot and re-channel this."
+    ]
+  }
+}

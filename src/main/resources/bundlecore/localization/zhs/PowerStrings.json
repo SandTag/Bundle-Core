@@ -1,0 +1,62 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "Ultimate Power",
+    "DESCRIPTIONS": [
+      "You are Very Cool and Strong."
+    ]
+  },
+
+  "bundlecore:OnFirePower": {
+    "NAME": "着火",
+    "DESCRIPTIONS": [
+      "在他的回合开始时，这个效果的层数增加 #b1 ，然后它失去 #b",
+      "生命值。如果它具有 #y易伤，则改为失去 #b ",
+      "生命值。"
+    ]
+  },
+
+  "${modID}:HeavyConfusionPower": {
+    "NAME": "Heavy Confusion",
+    "DESCRIPTIONS": [
+      "When a card is drawn its energy cost is shuffled and may increase up to #b3 cost."
+    ]
+  },
+
+  "${modID}:PhysicalTimeWarpPower": {
+    "NAME": "Physical Time Warp",
+    "DESCRIPTIONS": [
+      "After #b",
+      " Seconds have passed since the start of your turn, it will end. \n Currently #b",
+      " Seconds have elapsed.",
+      "\n New or reduced stacks of this power apply from the start of your next turn.",
+      " second has elapsed."
+    ]
+  },
+
+  "${modID}:SuffocationPower": {
+    "NAME": "Suffocation",
+    "DESCRIPTIONS": [
+      "At the start of this creatures turn it will lose #b",
+      " HP. If the creature is #yFrail it will instead lose #b",
+      " HP."
+    ]
+  },
+
+  "${modID}:AntifactPower": {
+    "NAME": "Antifact",
+    "DESCRIPTIONS": [
+      "The next #b",
+      " times this creature tries to get a buff, it will be negated."
+    ]
+  },
+
+  "${modID}:PressureBossPower": {
+    "NAME": "Pressure",
+    "DESCRIPTIONS": [
+      "After playing #b30 cards ",
+      " will end your turn. ",
+      "(Turn ends after #b",
+      " more cards)"
+    ]
+  }
+}

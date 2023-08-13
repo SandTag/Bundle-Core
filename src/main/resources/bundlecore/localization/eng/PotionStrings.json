@@ -1,0 +1,31 @@
+{
+  "${modID}:PotionID": {
+    "NAME": "Some Kind of Potion",
+    "DESCRIPTIONS": [
+      "Little",
+      " pieces ",
+      "that get put together",
+      " into a description.",
+      " Exactly how depends on the potion, and you can set it up however you want."
+    ]
+  },
+
+  "${modID}:LavaPotionForbidden":{
+    "NAME": "Lava Potion",
+    "DESCRIPTIONS":[
+      "Deal #b",
+      " damage and apply #b",
+      " #yOn #yFire to the target."
+    ],
+    "FLAVOR": "Good thing the bottle is thermally insulated!"
+  },
+
+  "${modID}:PotionFireForbidden": {
+    "NAME": "Potion Fire",
+    "DESCRIPTIONS": [
+      "deal #b",
+      " Damage."
+    ]
+  }
+
+}

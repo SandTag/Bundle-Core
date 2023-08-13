@@ -1,0 +1,41 @@
+{
+  "${modID}:Cursed_DecaFinalBoss": {
+    "MOVES": [
+      "Ascender's Diamond of Deflection",
+      "Diamond Break",
+      "Last Prism"
+    ],
+    "NAME": "Wide Daddy Deca The Beta",
+    "DIALOG": [
+      "#gLIVE...",
+      "#gIT... #gIS...",
+      "#rIT #rHARMS #rFRIENDS?",
+      "#rDIE!",
+      "#g~Friend...~"
+    ]
+  },
+
+  "${modID}:TimeussuyExpress":{
+    "MOVES": [
+      "Temporal Shockwave",
+      "Big Smash",
+      "Hindering Dilation",
+      "Lesser Recovery",
+      "Greater Recovery",
+      "Temporal Resurrection"
+    ],
+    "NAME": "Titanic Time Eater The Tocking",
+    "DIALOG": [
+      "... Visitors..? Lets... Dance...",
+      "... Quite... Foolish...",
+      "... Not... You... Again...",
+      "... Ehh?",
+      "... Fiesty... Are we...",
+      "... Time can... Go back...",
+      "... How long... Can it endure...",
+      "... It... Tires me...",
+      "... It Seeks... To know things... From Me...",
+      "... Collector has... Stolen Goods... Confront her..."
+    ]
+  }
+}

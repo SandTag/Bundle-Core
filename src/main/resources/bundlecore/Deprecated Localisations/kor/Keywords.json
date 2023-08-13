@@ -1,0 +1,672 @@
+[
+  {
+    "PROPER_NAME": "Rare",
+    "NAMES": [
+      "Rare",
+      "rare"
+    ],
+    "DESCRIPTION": "(번역 필요) Spawns less often than other #yRelics of its type."
+  },
+
+  {
+    "PROPER_NAME": "Slow",
+    "NAMES": [
+      "Slow",
+      "slow"
+    ],
+    "DESCRIPTION": "(번역 필요) Target takes #b10% more damage for each stack additively, resets to #b0 each turn and increases by #b1 when a card is played."
+  },
+  {
+    "PROPER_NAME": "Slime",
+    "NAMES": [
+      "Slime",
+      "slime",
+      "Slimes",
+      "slimes"
+    ],
+    "DESCRIPTION": "(번역 필요) #yPassive: At the end of your turn deal damage to a random enemy (Base: #b1 [REMOVE_SPACE]). NL #yOrb damage affected by #yStrength [REMOVE_SPACE], #yDexterity and #yFocus [REMOVE_SPACE]. NL #yEvoke: Gain #b1 #yOrb slot and #yChannel this #yOrb [REMOVE_SPACE]."
+  },
+  {
+    "PROPER_NAME": "On Fire",
+    "NAMES": [
+      "On Fire",
+      "On_Fire",
+      "on_fire"
+    ],
+    "DESCRIPTION": "(번역 필요) Affected creatures lose HP at the start of their turn. Each turn, #yOn #yFire is increased by #b1."
+  },
+  {
+    "PROPER_NAME": "Fire Breathing",
+    "NAMES": [
+      "Fire Breathing",
+      "Fire_Breathing",
+      "fire_breathing"
+    ],
+    "DESCRIPTION": "(번역 필요) When you draw a status or curse card, deals damage to ALL enemies."
+  },
+  {
+    "PROPER_NAME": "Lava Potion",
+    "NAMES": [
+      "Lava Potion",
+      "Lava_Potion",
+      "lava_potion",
+      "lava_potions"
+    ],
+    "DESCRIPTION": "(번역 필요) Potion: Deal #b25 damage to the target and apply #b5 #yOn #yFire."
+  },
+
+  {
+    "PROPER_NAME": "Mageblood Lava",
+    "NAMES": [
+      "Mageblood Lava",
+      "Mageblood_Lava",
+      "mageblood lava",
+      "mageblood_lava"
+    ],
+    "DESCRIPTION": "While you have the relic #yMageblood [REMOVE_SPACE], apply #b5 #yOn #yFire to ALL enemies before the start of combat for each potion slot."
+  },
+
+  {
+    "PROPER_NAME": "Mageblood Cheese",
+    "NAMES": [
+      "Mageblood Cheese",
+      "Mageblood_Cheese",
+      "mageblood cheese",
+      "mageblood_cheese"
+    ],
+    "DESCRIPTION": "While you have the relic #yMageblood [REMOVE_SPACE], another potion will be added to all combat rewards."
+  },
+
+  {
+    "PROPER_NAME": "After Image",
+    "NAMES": [
+      "After Image",
+      "After_Image",
+      "after image",
+      "after_image"
+    ],
+    "DESCRIPTION": "Whenever you play a card, gain Block."
+  },
+
+  {
+    "PROPER_NAME":"Fox Fanatic",
+    "NAMES": [
+      "Fox Fanatic",
+      "Fox_Fanatic",
+      "fox fanatic",
+      "fox_fanatic"
+    ],
+    "DESCRIPTION": "A relic inspired by MTS bot creator and fox appreciator Nelly. Feel free to provide foxes in #modding-technical."
+  },
+
+  {
+    "PROPER_NAME":"Creative Canvas",
+    "NAMES": [
+      "Creative Canvas",
+      "Creative_Canvas",
+      "creative canvas",
+      "creative_canvas"
+    ],
+    "DESCRIPTION": "A relic inspired by Modding veteran Vex. Suitable Vex art included."
+  },
+
+  {
+    "PROPER_NAME": "Day",
+    "NAMES": [
+      "Day",
+      "day"
+    ],
+    "DESCRIPTION": "Monday: At the start of your turn gain [E] [REMOVE_SPACE][E] next turn. NL Tuesday: At the start of your turn draw #b3 cards next turn. NL Wednesday: At the start of your turn #yExhume a card and #yUpgrade it. NL Thursday: At the start of your turn draw #b3 cards and discard #b3 cards. NL Friday: At the start of your turn gain #b1 #yRitual [REMOVE_SPACE]. NL Saturday: At the start of your turn gain #b9 block. NL Sunday: At the start of your turn apply #b1 #yWeak [REMOVE_SPACE], #yVulnerable and #yConstricted to ALL enemies."
+  },
+
+  {
+    "PROPER_NAME": "Hour",
+    "NAMES": [
+      "Hour",
+      "hour"
+    ],
+    "DESCRIPTION": "Odd morning: Upon pickup duplicate #b2 random cards (Or add #b2 #yWounds [REMOVE_SPACE]). NL Even morning: Upon pickup transform #pAscenders #pBane into two #pNecronomicurse or gain two #pAscender's #pBane [REMOVE_SPACE]. NL Odd afternoon hours: Upon pickup, lose #r20% of your maximum health. NL Even afternoon hours: Upon pickup, randomly #rRemove #b2 cards. NL 3am: Upon pickup add #pCurse #pOf #pThe #pBell to your deck, except on the 13th day of the month and if its a friday instead obtain a special relic."
+  },
+
+  {
+    "PROPER_NAME":"Heavily Confused",
+    "NAMES": [
+      "Heavily Confused",
+      "Heavily_Confused",
+      "heavily confused",
+      "heavily_confused"
+    ],
+    "DESCRIPTION": "When you draw cards whilst heavily confused, their cost is shuffled and may be increased up to a maximum of 3 but will never be lower than the base cost."
+  },
+
+  {
+    "PROPER_NAME":"Heavily Confused",
+    "NAMES": [
+      "Heavily Confused",
+      "Heavily_Confused",
+      "heavily confused",
+      "heavily_confused"
+    ],
+    "DESCRIPTION": "When you draw cards whilst heavily confused, their cost is shuffled and may be increased up to a maximum of 3 but will never be lower than the base cost."
+  },
+
+  {
+    "PROPER_NAME":"Monster Masher",
+    "NAMES": [
+      "Monster Masher",
+      "Monster_Masher",
+      "monster masher",
+      "monster_masher"
+    ],
+    "DESCRIPTION": "A relic created with the Snecko bot and the directions of Jack Renoson, creator of Trophy Hunter."
+  },
+
+  {
+    "PROPER_NAME": "Supplier",
+    "NAMES": [
+      "Supplier",
+      "supplier"
+    ],
+    "DESCRIPTION": "Cards with supplier cost [E] more but give [E] [E] next turn. NL #pCurses and #rStatuses become playable for #b0 [REMOVE_SPACE]. NL Cannot be put on #yUnplayable regular cards."
+  },
+
+  {
+    "PROPER_NAME":"Ambitious Autumn",
+    "NAMES": [
+      "Ambitious Autumn",
+      "Ambitious_Autumn",
+      "Ambitious Autumn",
+      "Ambitious_Autumn"
+    ],
+    "DESCRIPTION": "A relic inspired by Autumn, Creator of many innovative mods, including Chimera Cards."
+  },
+
+  {
+    "PROPER_NAME":"Optimistic Ocean",
+    "NAMES": [
+      "Optimistic Ocean",
+      "Optimistic_Ocean",
+      "optimistic ocean",
+      "optimistic_ocean"
+    ],
+    "DESCRIPTION": "A relic inspired by Ocean, Creator of the QoL pack Ocean's Pencil Case."
+  },
+
+  {
+    "PROPER_NAME":"Blazing Bryan",
+    "NAMES": [
+      "Blazing Bryan",
+      "Blazing_Bryan",
+      "blazing bryan",
+      "blazing_bryan"
+    ],
+    "DESCRIPTION": "A relic inspired by Bryan, creator of the FireBlade character mod. \"WHARGH\"."
+  },
+
+  {
+    "PROPER_NAME":"Great GK",
+    "NAMES": [
+      "Great GK",
+      "Great_GK",
+      "great gk",
+      "great_gk"
+    ],
+    "DESCRIPTION": "A relic inspired by GK, creator of many great mods such as Minty Spire and Spicy Shops."
+  },
+
+  {
+    "PROPER_NAME":"Perfecting Pandemonium",
+    "NAMES": [
+      "Perfecting Pandemonium",
+      "Perfecting_Pandemonium",
+      "perfecting pandemonium",
+      "perfecting_pandemonium"
+    ],
+    "DESCRIPTION": "A relic inspired by Pandemonium, creator of many mods that enhance basegame aspects, like Spire Locations."
+  },
+
+  {
+    "PROPER_NAME":"Better Boomer",
+    "NAMES": [
+      "Better Boomer",
+      "Better_Boomer",
+      "better boomer",
+      "better_boomer"
+    ],
+    "DESCRIPTION": "A relic inspired by Mindbomber, also known as Boomer, creator of Fractal Chronometer."
+  },
+
+  {
+    "PROPER_NAME":"Kind Kio",
+    "NAMES": [
+      "Kind Kio",
+      "Kind_Kio",
+      "kind kio",
+      "kind_kio"
+    ],
+    "DESCRIPTION": "A relic inspired by Kio, i can guarantee you are playing with at least three of their mods right now!"
+  },
+
+  {
+    "PROPER_NAME":"Elegant Enbeon",
+    "NAMES": [
+      "Elegant Enbeon",
+      "Elegant_Enbeon",
+      "elegant enbeon",
+      "elegant_enbeon"
+    ],
+    "DESCRIPTION": "This person needs to make a mod or their relic wont be able to appear!"
+  },
+
+  {
+    "PROPER_NAME":"Scaley Silver",
+    "NAMES": [
+      "Scaley Silver",
+      "Scaley_Silver",
+      "scaley silver",
+      "scaley_silver"
+    ],
+    "DESCRIPTION": "A relic inspired by Silver, creator of the character mod The Justicar."
+  },
+
+  {
+    "PROPER_NAME":"Artisan Alchyr",
+    "NAMES": [
+      "Artisan Alchyr",
+      "Artisan_Alchyr",
+      "artisan alchyr",
+      "artisan_alchyr"
+    ],
+    "DESCRIPTION": "A relic inspired by Alchyr, creator of many mods including the character mod Astrologer."
+  },
+
+  {
+    "PROPER_NAME":"Jovial Jedi",
+    "NAMES": [
+      "Jovial Jedi",
+      "Jovial_Jedi",
+      "jovial jedi",
+      "jovial_jedi"
+    ],
+    "DESCRIPTION": "A relic inspired by Jedi, creator of mods including the content mod Jedi Mod."
+  },
+
+  {
+    "PROPER_NAME": "Jolly Johnny",
+    "NAMES": [
+      "Jolly Johnny",
+      "Jolly_Johnny",
+      "jolly johnny",
+      "jolly_johnny"
+    ],
+    "DESCRIPTION": "A relic inspired by Johnny Bazooka, Creator of the character mod The Blackbeard."
+  },
+
+  {
+    "PROPER_NAME": "Jeery Jerry",
+    "NAMES": [
+      "Jeery Jerry",
+      "Jeery_Jerry",
+      "jeery jerry",
+      "jeery_jerry"
+    ],
+    "DESCRIPTION": "A relic inspired by Jerry, creator of the modpack Bad Spire."
+  },
+
+  {
+    "PROPER_NAME": "Magical Modargo",
+    "NAMES": [
+      "Magical Modargo",
+      "Magical_Modargo",
+      "magical modargo",
+      "magical_modargo"
+    ],
+    "DESCRIPTION": "A relic inspired by Modargo, creator of the three arcanic act mods Menagerie, Elementarium and Abyss."
+  },
+
+  {
+    "PROPER_NAME": "Mighty Micheal",
+    "NAMES": [
+      "Mighty Micheal",
+      "Mighty_Micheal",
+      "mighty micheal",
+      "mighty_micheal"
+    ],
+    "DESCRIPTION": "A relic inspired by Michael Mayhem, a game developer and developer of Downfall."
+  },
+
+  {
+    "PROPER_NAME": "Definitive Darkglade",
+    "NAMES": [
+      "Definitive Darkglade",
+      "Definitive_Darkglade",
+      "definitive darkglade",
+      "definitive_darkglade"
+    ],
+    "DESCRIPTION": "A relic inspired by Darkglade, creator of the act mods Gensokyo and Ruina."
+  },
+
+  {
+    "PROPER_NAME": "Spicy SandTag",
+    "NAMES": [
+      "Spicy SandTag",
+      "Spicy_SandTag",
+      "spicy sandTag",
+      "spicy_sandTag"
+    ],
+    "DESCRIPTION": "A relic inspired by... oh wait..."
+  },
+
+  {
+    "PROPER_NAME": "Suffocation",
+    "NAMES": [
+      "Suffocation",
+      "suffocation"
+    ],
+    "DESCRIPTION": "Creature loses #b5 [REMOVE_SPACE]HP at the start of its turn for each."
+  },
+
+  {
+    "PROPER_NAME": "Quickdraw",
+    "NAMES": [
+      "Quickdraw",
+      "quickdraw"
+    ],
+    "DESCRIPTION": "When this card is drawn, draw 1 more card."
+  },
+
+  {
+    "PROPER_NAME": "Magic",
+    "NAMES": [
+      "Magic",
+      "magic"
+    ],
+    "DESCRIPTION": "Most of a cards secondary values are \"Magic\"."
+  },
+
+  {
+    "PROPER_NAME": "Metallicize",
+    "NAMES": [
+      "Metallicize",
+      "metallicize"
+    ],
+    "DESCRIPTION": "At the end of your turn, gain block."
+  },
+
+  {
+    "PROPER_NAME": "Undying",
+    "NAMES": [
+      "Undying",
+      "undying"
+    ],
+    "DESCRIPTION": "When this card would exhaust, an equal copy appears back in your hand."
+  },
+
+  {
+    "PROPER_NAME": "Antifact",
+    "NAMES": [
+      "Antifact",
+      "antifact"
+    ],
+    "DESCRIPTION": "The next time a creature with antifact tries to gain a buff, it will be negated."
+  },
+
+  {
+    "PROPER_NAME": "Lighthearted Laugic",
+    "NAMES": [
+      "Lighthearted Laugic",
+      "Lighthearted_Laugic",
+      "lighthearted laugic",
+      "lighthearted_laugic"
+    ],
+    "DESCRIPTION": "A relic inspired by Laugic, a funny modder and creator of character mods The Vacant and The Conductor."
+  },
+
+  {
+    "PROPER_NAME": "Last Light",
+    "NAMES": [
+      "Last Light",
+      "Last_Light",
+      "last light",
+      "last_light"
+    ],
+    "DESCRIPTION": "A relic inspired by Last Light, creator of an older mod by the same name."
+  },
+
+  {
+    "PROPER_NAME": "Defeated Donu",
+    "NAMES": [
+      "Defeated Donu",
+      "Defeated_Donu",
+      "defeated donu",
+      "defeated_donu"
+    ],
+    "DESCRIPTION": "This relic only spawns naturally after defeating Wide Daddy Donu The Omega."
+  },
+
+  {
+    "PROPER_NAME": "Champion Of Donu",
+    "NAMES": [
+      "Champion Of Donu",
+      "Champion of Donu",
+      "champion of donu",
+      "Champion_Of_Donu",
+      "Champion_of_Donu",
+      "champion_of_donu"
+    ],
+    "DESCRIPTION": "This relic only spawns naturally after defeating Wide Daddy Donu The Omega on Ascension 20."
+  },
+
+  {
+    "PROPER_NAME": "Defeated Deca",
+    "NAMES": [
+      "Defeated Deca",
+      "Defeated_Deca",
+      "defeated deca",
+      "defeated_deca"
+    ],
+    "DESCRIPTION": "This relic only spawns naturally after defeating Wide Daddy Deca The Beta."
+  },
+
+  {
+    "PROPER_NAME": "Champion Of Deca",
+    "NAMES": [
+      "Champion Of Deca",
+      "Champion of Deca",
+      "champion of deca",
+      "Champion_Of_Deca",
+      "Champion_of_Deca",
+      "champion_of_deca"
+    ],
+    "DESCRIPTION": "This relic only spawns naturally after defeating Wide Daddy Deca The Beta on Ascension 20 without activating Final Prism."
+  },
+
+  {
+    "PROPER_NAME": "MK2",
+    "NAMES": [
+      "MK2",
+      "mk2"
+    ],
+    "DESCRIPTION": "This cards values are increased by #b1/6th with no downside."
+  },
+
+  {
+    "PROPER_NAME": "Blank Blank",
+    "NAMES": [
+      "Blank Blank",
+      "Blank_Blank",
+      "blank blank",
+      "blank_blank"
+    ],
+    "DESCRIPTION": "A relic inspired by Blank, Kotlin enthusiast and creator of Infinite Spire, the definitive endless mode expansion."
+  },
+
+  {
+    "PROPER_NAME": "Quest",
+    "NAMES": [
+      "Quest",
+      "quest"
+    ],
+    "DESCRIPTION": "You may only have #b1 #yQuest relic at a time. NL Completing this #yQuest will unlock new relics if it has not been done before. NL Completing the quest on #pA20+ will unlock more items."
+  },
+
+  {
+    "PROPER_NAME": "Keybane",
+    "NAMES": [
+      "Keybane",
+      "keybane"
+    ],
+    "DESCRIPTION": "When you obtain the third key piece or if you have them before pickup, obtain the linked #rStatus card."
+  },
+
+  {
+    "PROPER_NAME": "Destiny",
+    "NAMES": [
+      "Destiny",
+      "destiny"
+    ],
+    "DESCRIPTION": "A quest that ends with a final boss in act 4."
+  },
+
+  {
+    "PROPER_NAME": "Defeated Time",
+    "NAMES": [
+      "Defeated Time",
+      "Defeated_Time",
+      "defeated time",
+      "defeated_time"
+    ],
+    "DESCRIPTION": "This relic only spawns naturally after surviving Titanic Time Eater The Tocking."
+  },
+
+  {
+    "PROPER_NAME": "Defeated Collector",
+    "NAMES": [
+      "Defeated Collector",
+      "Defeated_Collector",
+      "defeated collector",
+      "defeated_collector"
+    ],
+    "DESCRIPTION": "This relic only spawns naturally after surviving Colossal Collector The Crowning."
+  },
+
+  {
+    "PROPER_NAME": "Potionbrewer's Permit",
+    "NAMES": [
+      "Potionbrewer's Permit",
+      "Potionbrewers Permit",
+      "potionbrewer's_permit",
+      "potionbrewers_permit"
+    ],
+    "DESCRIPTION": "This relic only spawns naturally after confronting the potion thieves and living to tell the tale."
+  },
+
+  {
+    "PROPER_NAME": "Champion Of Time",
+    "NAMES": [
+      "Champion Of Time",
+      "Champion_Of_Time",
+      "champion of time",
+      "champion_of_time"
+    ],
+    "DESCRIPTION": "This relic only spawns naturally after surviving Titanic Time Eater The Tocking on Ascension 20."
+  },
+
+  {
+    "PROPER_NAME": "Champion Of Collecting",
+    "NAMES": [
+      "Champion Of Collecting",
+      "Champion_Of_Collecting",
+      "champion of collecting",
+      "champion_of_collecting"
+    ],
+    "DESCRIPTION": "This relic only spawns naturally after surviving Colossal Collector The Crowning on Ascension 20."
+  },
+
+  {
+    "PROPER_NAME": "Merchant's Respect",
+    "NAMES": [
+      "Merchant's Respect",
+      "Merchants Respect",
+      "merchant's_respect",
+      "merchants_respect"
+    ],
+    "DESCRIPTION": "This relic only spawns naturally after confronting the potion thieves on Ascension 20."
+  },
+
+  {
+    "PROPER_NAME": "Mageblood Stimulant R",
+    "NAMES": [
+      "Mageblood Stimulant R",
+      "Mageblood_Stimulant_R",
+      "mageblood stimulant r",
+      "mageblood_stimulant_r"
+    ],
+    "DESCRIPTION": "While you have the relic #yMageblood [REMOVE_SPACE], enter #yDivinity at the start of combat if your potion slots are all full."
+  },
+
+  {
+    "PROPER_NAME": "Cardmod",
+    "NAMES": [
+      "Cardmod",
+      "cardmod"
+    ],
+    "DESCRIPTION": "Cardmods are additional properties that can be applied to cards, they can be either temporary or permanent like #yChimera #yModifiers [REMOVE_SPACE]."
+  },
+
+  {
+    "PROPER_NAME": "Red rinM",
+    "NAMES": [
+      "Red rinM",
+      "red_rinm"
+    ],
+    "DESCRIPTION": "A relic inspired by rinM, creator of the Kil La Kill mod and Subterfuge."
+  },
+
+  {
+    "PROPER_NAME": "Fascinating Fleet",
+    "NAMES": [
+      "Fascinating Fleet",
+      "fascinating_fleet"
+    ],
+    "DESCRIPTION": "A relic inspired by Call of Fleet, creator of many popular mods such as Libriary of Ruina and Elena."
+  },
+
+  {
+    "PROPER_NAME": "Likeable Lobbien",
+    "NAMES": [
+      "Likeable Lobbien",
+      "likeable_lobbien"
+    ],
+    "DESCRIPTION": "A relic inspired by Lobbien, creator of the core mod Gif The Spire."
+  },
+
+  {
+    "PROPER_NAME": "Choke",
+    "NAMES": [
+      "Choke",
+      "choke"
+    ],
+    "DESCRIPTION": "Whenever you play a card this turn, the enemy loses HP."
+  },
+
+  {
+    "PROPER_NAME": "Stun",
+    "NAMES": [
+      "Stun",
+      "stun"
+    ],
+    "DESCRIPTION": "Stunned enemies skip their turn."
+  },
+
+  {
+    "PROPER_NAME": "Soup",
+    "NAMES": [
+      "Soup",
+      "soup",
+      "Soupy",
+      "soupy"
+    ],
+    "DESCRIPTION": "Card applies ( [REMOVE_SPACE]#b1 [REMOVE_SPACE]) modifier to every card in hand."
+  }
+]

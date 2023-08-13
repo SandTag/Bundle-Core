@@ -1,0 +1,186 @@
+{
+  "${modID}:Example": {
+    "TEXT": [
+      "This is",
+      "an array of Strings."
+    ],
+    "EXTRA_TEXT": [
+      "This is another",
+      "array of Strings."
+    ],
+    "TEXT_DICT": {
+      "This": "Contains pairs of Strings, used to get values based on keys.",
+      "This is a key": "This is a value."
+    }
+  },
+
+  "${modID}:ModSettings": {
+    "TEXT": [
+      "Enable Food X Potions crossover",
+      "Enable Food X Peglin crossover",
+      "(4) Enable Peglin Themed Startup",
+      "Enable Peglin Themed Boss Music",
+      "Enable Peglin Themed Act Music",
+      "Enable Potions X Peglin crossover",
+
+      "(6) Enable Terraria Themed Startup",
+      "Enable Terraria Themed Act Music",
+      "Enable Terraria Themed Boss Music",
+      "Enable Terraria X Food crossover",
+      "Enable Terraria X Potions crossover",
+
+      "Enable Terraria X Peglin crossover",
+      "(0) Enable Hubris Funny Text",
+      "(1) Enable Downfall Startup",
+      "(2) Enable Ruina Startup",
+      "(3) Enable Shion Startup",
+
+      "(5) Enable Dead Cells Startup",
+      "(69420) Chaos? CHAOS!?!? [Random Menu]",
+      "Allow select Terra relics to appear for all classes",
+      "Allow relics inspired by Mod Creators to appear",
+      "Allow Quests and Quest rewards.",
+
+      "Enable Chimeric Expansion"
+    ]
+  },
+
+  "${modID}:ModConfigs": {
+    "TEXT": ["Enable Bundle Core Crossover Content"]
+  },
+
+  "${modID}:BootyModifier": {
+    "TEXT": ["", "'s Booty", " NL Gain !bundlecore:BootyModifier! gold at the start of combat. NL Exhaust."],
+    "EXTRA_TEXT": ["Cost increases by #b1 [REMOVE_SPACE]. NL Gain #b10 [REMOVE_SPACE]( [REMOVE_SPACE]#b15 [REMOVE_SPACE]) gold at the start of combat."]
+  },
+
+  "${modID}:FartModifier": {
+    "TEXT": ["", "'s Fart", " NL At the start of your turn, apply !bundlecore:FartModifier! poison to ALL enemies. NL Exhaust."],
+    "EXTRA_TEXT": ["Card gains Exhaust. NL Applies #b1 [REMOVE_SPACE]( [REMOVE_SPACE]#b2 [REMOVE_SPACE]) poison at the start of turn to ALL enemies after being played."]
+  },
+
+  "${modID}:ScreensModifier": {
+    "TEXT": ["", "'s Screens?!", " NL Scry !bundlecore:ScreensModifier!, draw and discard !bundlecore:ScreensModifier! card(s) and return a card from your discard pile to your hand.", "Ethereal. NL "],
+    "EXTRA_TEXT": ["Card gains Ethereal. NL Card will #yScry #b1 [REMOVE_SPACE]( [REMOVE_SPACE]#b2 [REMOVE_SPACE]), draw and discard #b1 [REMOVE_SPACE]( [REMOVE_SPACE]#b2 [REMOVE_SPACE]) and return #b1 card from the discard pile on play."]
+  },
+
+  "${modID}:UnstableModifier": {
+    "TEXT": ["Unstable ", "", "", ""],
+    "EXTRA_TEXT": ["Values increased by attached relic ( [REMOVE_SPACE]#b1.65 [REMOVE_SPACE]x [REMOVE_SPACE]) but this modifier will persist if the relic is lost."]
+  },
+
+  "${modID}:OverextendedModifier": {
+    "TEXT": ["Overextended ", "", " NL Gain !bundlecore:OverextendedModifier! Weak, Frail and Vulnerable.", ""],
+    "EXTRA_TEXT": ["Values are multiplied by #b3 [REMOVE_SPACE]. NL On play gives #b99 [REMOVE_SPACE]( [REMOVE_SPACE]#b3 [REMOVE_SPACE]) #yWeak [REMOVE_SPACE], #yFrail and #yVulnerable [REMOVE_SPACE]."]
+  },
+
+  "${modID}:BottledMod": {
+    "TEXT": ["Bottled ", "", "bundlecore:Quickdraw, Retain. NL ", " NL Exhaustive !stslib:ex!."],
+    "EXTRA_TEXT": ["Card gains #yQuickdraw [REMOVE_SPACE], #yRetain and #yExhaustive #b2 [REMOVE_SPACE]."]
+  },
+
+  "${modID}:CantrippedModifier": {
+    "TEXT": ["", "'s Cantrip", "", " NL Draw !bundlecore:CantrippedModifier! card(s). NL Exhaustive !stslib:ex!."],
+    "EXTRA_TEXT": ["Draws #b1 [REMOVE_SPACE]( [REMOVE_SPACE]#b2 [REMOVE_SPACE]) cards on play but has #yExhaustive #b3 [REMOVE_SPACE]."]
+  },
+
+  "${modID}:OrbModifier": {
+    "TEXT": ["Orby ", "", "bundle_of_peglin:Orb NL ", " NL bundle_of_peglin:Crit: Gain [E] [E] and draw 4 cards."],
+    "EXTRA_TEXT": ["This card is considered an #yOrb [REMOVE_SPACE]. NL Card gains a #yCrit effect of gaining [E] [REMOVE_SPACE][E] and drawing #b4 cards."]
+  },
+
+  "${modID}:ShoppingModifier": {
+    "TEXT": ["", "'s Shopping", " NL Heal 1 HP. NL Gain !bundlecore:ShoppingModifier! Gold.", ""],
+    "EXTRA_TEXT": ["Card gives #b1 [REMOVE_SPACE]HP and #b1 [REMOVE_SPACE]( [REMOVE_SPACE]#b3 [REMOVE_SPACE]) gold when played."]
+  },
+
+  "${modID}:SlimyModifier": {
+    "TEXT": ["Slimy ", "", " NL Add a Slimed to your discard pile.", ""],
+    "EXTRA_TEXT": ["Cost decreased by #b1 [REMOVE_SPACE]. NL Adds a #rSlimed to the discard pile on play."]
+  },
+
+  "${modID}:BongModifier": {
+    "TEXT": ["Ringing ", "", " NL At the start of combat add a Curse of the Bell to your draw pile.", ""],
+    "EXTRA_TEXT": ["All values multiplied by #b2 [REMOVE_SPACE]. NL A #pCurse #pof #pthe #pBell is added to the draw pile at the start of combat."]
+  },
+
+  "${modID}:FriedChickenModifier": {
+    "TEXT": ["", "'s Fried Chicken", " NL Heal !bundlecore:FriedChickenModifier! HP. NL Exhaust.", ""],
+    "EXTRA_TEXT": ["Cost increases by #b1 [REMOVE_SPACE]. NL Card gives #b4 [REMOVE_SPACE]( [REMOVE_SPACE]#b6 [REMOVE_SPACE])HP when played and #yExhausts [REMOVE_SPACE]."]
+  },
+
+  "${modID}:BreweryModifier": {
+    "TEXT": ["", "'s Brewery", " NL Lose !bundlecore:BreweryModifier! HP. NL Obtain a random potion.", ""],
+    "EXTRA_TEXT": ["Sponsored by Frost Prime Industries. NL Card gives a potion on use but makes you lose #r6 [REMOVE_SPACE]( [REMOVE_SPACE]#r5 [REMOVE_SPACE])HP when played."]
+  },
+
+
+
+
+
+  "${modID}:FlashbangModifier": {
+    "TEXT": ["", "'s Flashbang", " NL Apply bundlecore:Stun. NL stslib:Purge.", ""],
+    "EXTRA_TEXT": ["Cost increased by #b1 [REMOVE_SPACE]. NL Card applies #yStun to the target for 1 turn but gains #yPurge [REMOVE_SPACE]."]
+  },
+
+  "${modID}:NormalisedModifier": {
+    "TEXT": ["Normal ", "", " NL Can only be played if !bundlecore:NormalisedModifier! or less cards have been played this turn.", ""],
+    "EXTRA_TEXT": ["Card values + [REMOVE_SPACE]#b35 [REMOVE_SPACE]%. NL Card can only be played if less than #b2 [REMOVE_SPACE]( [REMOVE_SPACE]#b3+ [REMOVE_SPACE]) other cards have been played this turn."]
+  },
+
+  "${modID}:ChokingModifier": {
+    "TEXT": ["Choking ", "", " NL Apply !bundlecore:ChokingModifier! bundlecore:Choke.", ""],
+    "EXTRA_TEXT": ["Cost increased by #b1 [REMOVE_SPACE]. NL Card makes enemies take #b6 [REMOVE_SPACE]( [REMOVE_SPACE]#b8+ [REMOVE_SPACE]) more damage when you play a card this turn."]
+  },
+
+  "${modID}:VenomousModifier": {
+    "TEXT": ["Venomous ", "", " NL Applies bundlecore:Choke equal to unblocked damage.", ""],
+    "EXTRA_TEXT": ["Damage - [REMOVE_SPACE]#b50 [REMOVE_SPACE]%. NL Applies #yChoke equal to unblocked damage."]
+  },
+
+  "${modID}:ChaoticOrbsModifier": {
+    "TEXT": ["Chaotic ", " Capacitor", " NL Gain 1 Orb slot and Channel a random orb NL Exhaust.", ""],
+    "EXTRA_TEXT": ["Card gives #b1 #yOrb slot and its filled with a random orb. Card now Exhausts."]
+  },
+
+  "${modID}:PerformingModifier": {
+    "TEXT": ["Performance of ", "", "Opener. NL ", ""],
+    "EXTRA_TEXT": ["Card values + [REMOVE_SPACE]#b50 [REMOVE_SPACE]%. NL Card gains #yOpener [REMOVE_SPACE]."]
+  },
+
+  "${modID}:FractalModifier": {
+    "TEXT": ["Fractalus ", "", " NL Add an Ethereal copy without Fractal bundlecore:Cardmod to your hand.", ""],
+    "EXTRA_TEXT": ["Card values - [REMOVE_SPACE]#b20 [REMOVE_SPACE]%. NL On play an ethereal copy without this #yCardmod is added to your hand."]
+  },
+
+  "${modID}:SoupModifier": {
+    "TEXT": ["Soupy ", "", " NL Apply 1 random modifier to every card in hand.", ""],
+    "EXTRA_TEXT": ["Card applies #b1 new modifier to every card in hand."]
+  },
+
+  "${modID}:ScaldingModifier": {
+    "TEXT": ["Scalding ", "", " NL Add a Burn to your discard pile.", ""],
+    "EXTRA_TEXT": ["Cost - [REMOVE_SPACE]#b1 [REMOVE_SPACE]. NL Adds a #rBurn to the discard pile."]
+  },
+
+  "${modID}:PainfulModifier": {
+    "TEXT": ["Painful ", "", " NL Add a Wound to your draw pile.", ""],
+    "EXTRA_TEXT": ["Cost - [REMOVE_SPACE]#b1 [REMOVE_SPACE]. NL Adds an #rWound to the draw pile."]
+  },
+
+  "${modID}:FoxyModifier": {
+    "TEXT": ["Foxy ", "", " NL Gain !bundlecore:FoxyModifier! Dexterity. NL Exhaust.", ""],
+    "EXTRA_TEXT": ["Cost + [REMOVE_SPACE]#b1 [REMOVE_SPACE]. NL Card gives #b2 [REMOVE_SPACE]( [REMOVE_SPACE]#b3+ [REMOVE_SPACE]) #yDexterity on play but Exhausts. NL Modders #plove foxes."]
+  },
+
+  "${modID}:RepulsiveModifier": {
+    "TEXT": ["Forbidden ", "", " NL stslib:Purge.", ""],
+    "EXTRA_TEXT": ["Card values increased by #b35 [REMOVE_SPACE]%. Card gains #yPurge [REMOVE_SPACE]."]
+  },
+
+  "${modID}:ConclusiveModifier": {
+    "TEXT": ["Conclusive ", "", " NL End your turn.", ""],
+    "EXTRA_TEXT": ["Card values increased by #b35 [REMOVE_SPACE]%. Card ends your turn."]
+  }
+
+}

@@ -1,0 +1,10 @@
+{
+  "bundlecore:FtueQuestRelics": {
+    "TEXT": [
+      "Quest relics appear in the centre slot of the boss chest, offering a challenge to permanently unlock relics. To disable quest relics, check the config. To learn more about specific quest relics, try the button on the bottom right of the main menu."
+    ],
+    "LABEL": [
+      "Quest Relics"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "Ultimate Power",
+    "DESCRIPTIONS": [
+      "You are Very Cool and Strong."
+    ]
+  },
+
+  "${modID}:OnFirePower": {
+    "NAME": "On Fire",
+    "DESCRIPTIONS": [
+      "(번역 필요) At the start of this creatures turn, this increases by #b1 then it will lose #b",
+      " HP. If the creature is #yVulnerable it will instead lose #b",
+      " HP."
+    ]
+  },
+
+  "${modID}:HeavyConfusionPower": {
+    "NAME": "Heavy Confusion",
+    "DESCRIPTIONS": [
+      "When a card is drawn its energy cost is shuffled and may increase up to #b3 cost."
+    ]
+  },
+
+  "${modID}:PhysicalTimeWarpPower": {
+    "NAME": "Physical Time Warp",
+    "DESCRIPTIONS": [
+      "After #b",
+      " Seconds have passed since the start of your turn, it will end. \n Currently #b",
+      " Seconds have elapsed.",
+      "\n New or reduced stacks of this power apply from the start of your next turn.",
+      " second has elapsed."
+    ]
+  },
+
+  "${modID}:SuffocationPower": {
+    "NAME": "Suffocation",
+    "DESCRIPTIONS": [
+      "At the start of this creatures turn it will lose #b",
+      " HP. If the creature is #yFrail it will instead lose #b",
+      " HP."
+    ]
+  },
+
+  "${modID}:AntifactPower": {
+    "NAME": "Antifact",
+    "DESCRIPTIONS": [
+      "The next #b",
+      " times this creature tries to get a buff, it will be negated."
+    ]
+  }
+}

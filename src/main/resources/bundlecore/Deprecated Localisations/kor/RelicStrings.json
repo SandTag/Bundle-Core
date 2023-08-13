@@ -1,0 +1,483 @@
+{
+  "${modID}:CheeseBoardBoss":{
+    "NAME": "치즈 보드",
+    "FLAVOR": "포션을 담을 수 있는 와인잔이 포함되었습니다! 이 먹거리는 당신의 포션과 완벽하게 어울릴 겁니다.",
+    "DESCRIPTIONS": [
+      "획득시, 포션 슬롯을 #b1 개 늘립니다. NL 일반 적군과의 전투 종료시 추가로 포션 보상을 얻습니다.(엘리트, 보스 제외) NL #y포션 의 효과가 #b40% 증가하며, 효과 수치가 최소 #b1 만큼 증가합니다 [REMOVE_SPACE]. NL #y포션 사용시 최대 체력이 #b1 증가합니다.",
+      "Upon pickup gain #b1 Potion Slot. NL All hallway fights now give a bonus potion reward, even special rarity ones. NL #yPotions are #b40% stronger, with their potency increasing by at least #b1 [REMOVE_SPACE]. NL #yPotions grant #b1 Max HP on use.  NL #ySynergy: #y${modID}:Mageblood_Cheese [REMOVE_SPACE]."
+    ]
+  },
+
+  "${modID}:AncientMeteoriteBoss":{
+    "NAME": "고대의 운석",
+    "FLAVOR": "거대한 녹색 용을 위한 음식입니다. 당신이 먹을게 아니에요!",
+    "DESCRIPTIONS": [
+      "획득시, 손에 들고 있을수 있는 카드 최대 수량이 #b1 장 증가합니다 [REMOVE_SPACE]. NL 매 턴 시작시, [E] 를 잃고 손이 꽉 찰 때까지 카드를 뽑습니다."
+    ]
+  },
+
+  "${modID}:DefreshPotionBoss":{
+    "NAME": "Defresh Potion",
+    "FLAVOR": "Translation Required (번역 필요)",
+    "DESCRIPTIONS": [
+      "Upon pickup, raise your maximum hand size by #b2 [REMOVE_SPACE]. NL At the start of your turn, gain [E] [REMOVE_SPACE][E] and draw #b3 cards. NL #rALL #rCARDS #yEXHAUST [REMOVE_SPACE]."
+    ]
+  },
+
+  "${modID}:CurseOfThePeglinKingBoss":{
+    "NAME": "Curse of the Peglin King",
+    "FLAVOR": "Translation Required (번역 필요)",
+    "DESCRIPTIONS": [
+      "Upon pickup, gain #b1 Potion Slot. NL At the start of your turn, add a #yMiracle to the top of your draw pile."
+    ]
+  },
+
+  "${modID}:PhoCommon":{
+    "NAME": "Pho",
+    "FLAVOR": "Translation Required (번역 필요)",
+    "DESCRIPTIONS": [
+      "Upon pickup, gain #b3 Max HP. NL At the start of your turn, gain #b1 #y${modID}:Fire_Breathing [REMOVE_SPACE]."
+    ]
+  },
+
+  "${modID}:PumpkinPieBoss":{
+    "NAME": "Pumpkin Pie",
+    "FLAVOR": "Translation Required (번역 필요)",
+    "DESCRIPTIONS": [
+      "Upon pickup, gain #b6 Max HP and raise your maximum hand size by #b2 [REMOVE_SPACE]. NL At the start of combat, gain [E] [REMOVE_SPACE][E] [REMOVE_SPACE][E] and draw #b5 cards."
+    ]
+  },
+
+  "${modID}:ManaCloakRare":{
+    "NAME": "Mana Cloak",
+    "FLAVOR": "Translation Required (번역 필요)",
+    "DESCRIPTIONS": [
+      "When you use a potion, gain [E] [REMOVE_SPACE]. NL If you have a potion and take unblocked attack damage, deal #b5 damage to ALL enemies and apply #b1 #yWeak to them."
+    ]
+  },
+
+  "${modID}:MagmaSkullBoss":{
+    "NAME": "Magma Skull",
+    "FLAVOR": "Translation Required (번역 필요)",
+    "DESCRIPTIONS": [
+      "#y${modID}:Rare [REMOVE_SPACE]. NL Upon pickup, gain #b2 potion slots. NL When you use a potion that isn't a #y${modID}:Lava_Potion [REMOVE_SPACE], gain a #yLava #yPotion [REMOVE_SPACE].",
+      "#y${modID}:Rare [REMOVE_SPACE]. NL Upon pickup, gain #b2 potion slots. NL When you use a potion that isn't a #y${modID}:Lava_Potion [REMOVE_SPACE], gain a #yLava #yPotion [REMOVE_SPACE]. NL #yElite fights drop two extra potions. #ySynergy: #y${modID}:Mageblood_Lava [REMOVE_SPACE]."
+    ]
+  },
+
+  "${modID}:PrimeRodOfIceUncommon":{
+    "NAME": "Prime Rod of Ice",
+    "FLAVOR": "Translation Required (번역 필요)",
+    "DESCRIPTIONS": [
+      "The first time each combat you play an attack that costs #b3 or more, apply #b1 #y${modID}:Slow to ALL enemies and #ryourself [REMOVE_SPACE]."
+    ]
+  },
+
+  "${modID}:RedRoyalGelBoss":{
+    "NAME": "Red Royal Gel",
+    "FLAVOR": "Translation Required (번역 필요)",
+    "DESCRIPTIONS": [
+      "At the start of combat, #yChannel #b3 #y${modID}:Slimes [REMOVE_SPACE]."
+    ]
+  },
+
+  "${modID}:FoxMomentBoss":{
+    "NAME": "Fast Fennec Friend",
+    "FLAVOR": ":Fox: + :Fox: = 3(:Fox:)",
+    "DESCRIPTIONS": [
+      "Upon pickup, lose up to #r24 Max HP (cannot be more than #b50% of your maximum health). NL At the start of your turn, lose [E] and gain #b1 #y${modID}:After_Image [REMOVE_SPACE] then draw #b1 card + #b1 for each enemy present.",
+      "bundlecore:Fox_Fanatic"
+    ]
+  },
+
+  "${modID}:ClockworkCrownBoss":{
+    "NAME": "Clockwork Crown",
+    "FLAVOR": "It might be time to consider this relic...",
+    "DESCRIPTIONS": [
+      "Has an upside per turn determined by #y${modID}:Day and downside upon pickup determined by #y${modID}:Hour [REMOVE_SPACE].",
+      "bundlecore:Creative_Canvas"
+    ]
+  },
+
+  "${modID}:SneckoSecondEyeUncommon":{
+    "NAME": "Snecko's Second Eye",
+    "FLAVOR": "Even more confusing than the first!",
+    "DESCRIPTIONS": [
+      "At the start of combat, become #y${modID}:Heavily_Confused [REMOVE_SPACE]. NL When you play a card, discard a random card, draw a card and apply #b2 #yPoison to ALL enemies.",
+      "bundlecore:Monster_Masher"
+    ]
+  },
+
+  "${modID}:ChimericGemstoneBoss":{
+    "NAME": "Philosuppliers Stone",
+    "FLAVOR": "A truly energetic and radiant artefact that helps you outmaneuver your enemies!",
+    "DESCRIPTIONS": [
+      "#gALL cards gain #y${modID}:Supplier [REMOVE_SPACE]. NL At the start of combat, gain [E] [REMOVE_SPACE]. NL At the start of turn #b2 and onwards, #rlose [E] and increase this loss by #b1 [REMOVE_SPACE].",
+      "bundlecore:Ambitious_Autumn"
+    ]
+  },
+
+  "${modID}:GizmoPackUncommon":{
+    "NAME": "Architect's Gizmo Pack",
+    "FLAVOR": "Contains a variety of handy tools for every situation.",
+    "DESCRIPTIONS": [
+      "When you obtain a #pCurse [REMOVE_SPACE], gain #b2 Maximum HP. NL When you draw a #yStatus card, deal #b2 damage to ALL enemies. NL When you play a #yPower gain #b1 #yThorns [REMOVE_SPACE]. NL When you play an #yAttack gain #b1 Block. NL When you play a #ySkill, gain #b1 #yVigor [REMOVE_SPACE].",
+      "bundlecore:Optimistic_Ocean"
+    ]
+  },
+
+  "${modID}:SuperballBoss":{
+    "NAME": "Superball",
+    "FLAVOR": "Rumour has it collecting 7 of them will make all of your dreams bounce away!",
+    "DESCRIPTIONS": [
+      "The first time you play a #yPower each turn, gain #b1 #yStrength and increase this gain by #b1 [REMOVE_SPACE].",
+      "bundlecore:Blazing_Bryan"
+    ]
+  },
+
+  "${modID}:MintyMunchRare":{
+    "NAME": "Minty Munch",
+    "FLAVOR": "Has a very distinct taste and is surprisingly edible. Wait thats not what i...",
+    "DESCRIPTIONS": [
+      "Upon pickup, gain #b3 Max HP. NL At the end of your turn, draw #b1 next turn for each #yStatus card in hand and #yExhaust them.",
+      "bundlecore:Great_GK"
+    ]
+  },
+
+  "${modID}:PurifyingWaterBoss":{
+    "NAME": "Purifying Water",
+    "FLAVOR": "What once held you back now pushes you forwards.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, draw #b1 card for each #pCurse in your deck.",
+      "bundlecore:Perfecting_Pandemonium"
+    ]
+  },
+
+  "${modID}:FasterClockBoss":{
+    "NAME": "Faster Clock",
+    "FLAVOR": "Its time to pick up the pace!",
+    "DESCRIPTIONS": [
+      "At the start of your your turn, gain [E] [REMOVE_SPACE]. NL Your turns end automatically after a set amount of time, which is the sum of #b5 plus your number of #yPotion slots, maximum energy and half of your cards in deck.",
+      "bundlecore:Better_Boomer"
+    ]
+  },
+
+  "${modID}:GiantBoulderBoss":{
+    "NAME": "Big Boulder",
+    "FLAVOR": "Your sheer hubris commands you to lift this boulder even though its sheer weight causes great pain.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain [E] [REMOVE_SPACE]. NL At the end of your turn take #b1 damage and increase the damage by #b1 this combat.",
+      "bundlecore:Kind_Kio"
+    ]
+  },
+
+  "${modID}:FriendshipScarfShop":{
+    "NAME": "Friendship Scarf",
+    "FLAVOR": "With this scarf you feel compelled to make new friends.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, exhume and upgrade a card, then discard a random card.",
+      "bundlecore:Elegant_Enbeon"
+    ]
+  },
+
+  "${modID}:LoaderQueDynamic":{
+    "NAME": "Goldloader",
+    "FLAVOR": "Mods = $$$",
+    "DESCRIPTIONS": [
+      "Upon pickup, obtain #b",
+      " gold. NL Your mod list is disappointingly small.",
+      " gold. NL Your mod list is normally sized",
+      " gold. NL You have an impressively large mod list",
+      " gold. NL Hello Sandtag.",
+      "bundlecore:Kind_Kio",
+      " gold. Your mod list is so small this relic feels insulted and will not appear."
+    ]
+  },
+
+  "${modID}:DragonkinsHexBoss":{
+    "NAME": "Dragonkin's Hex",
+    "FLAVOR": "An almighty curse that deprives the enemy of their power for quite some time.",
+    "DESCRIPTIONS": [
+      "When you deal unblocked #yAttack damage, reduce the targets #yStrength by #b1 for one turn.",
+      "bundlecore:Scaley_Silver"
+    ]
+  },
+
+  "${modID}:StrengthCardUncommon":{
+    "NAME": "Strength",
+    "FLAVOR": "May your power bring rage.",
+    "DESCRIPTIONS": [
+      "When you #yExhaust #pAscender's #pBane [REMOVE_SPACE], gain #b2 #yStrength [REMOVE_SPACE].",
+      "bundlecore:Artisan_Alchyr"
+    ]
+  },
+
+  "${modID}:CrownOfKingdomsBoss":{
+    "NAME": "Crown of Kingdoms",
+    "FLAVOR": "With my regal right, i command you to bring me wealth!",
+    "DESCRIPTIONS": [
+      "On pickup, obtain #b3 #pAscender's #pBane and one random relic from ALL tiers. NL If you are not the #yDefect [REMOVE_SPACE], obtain #b1 upgraded #yDualcast [REMOVE_SPACE].",
+      "bundlecore:Jovial_Jedi"
+    ]
+  },
+
+  "${modID}:SupportCannonUncommon":{
+    "NAME": "Support Cannon",
+    "FLAVOR": "Includes a free wraith to load and fire!",
+    "DESCRIPTIONS": [
+      "At the start of turn #b3 [REMOVE_SPACE], deal #b32 damage to a random enemy.",
+      "bundlecore:Jolly_Johnny"
+    ]
+  },
+
+  "${modID}:ExclamationCardBoss":{
+    "NAME": "Exclamation Card",
+    "FLAVOR": "CARD!?",
+    "DESCRIPTIONS": [
+      "Permanently upgrade #gALL cards #gEVERYWHERE [REMOVE_SPACE]. NL Future card rewards contain #r2 less cards.",
+      "bundlecore:Jeery_Jerry"
+    ]
+  },
+
+  "${modID}:TarballShop":{
+    "NAME": "Sticky Tarball",
+    "FLAVOR": "Try not to put it in your deck.",
+    "DESCRIPTIONS": [
+      "Before the start of combat, apply #ySlow to EVERYONE. NL When you play a card, gain #b1 #yTemporary #yDexterity [REMOVE_SPACE].",
+      "bundlecore:Magical_Modargo"
+    ]
+  },
+
+  "${modID}:ModeShiftShop":{
+    "NAME": "Mode Shift",
+    "FLAVOR": "Defense mode activated.",
+    "DESCRIPTIONS": [
+      "Before the start of combat, lose #r3 #yStrength and gain #b2 #yDexterity [REMOVE_SPACE], #b3 #yMetallicize and #b4 #yThorns [REMOVE_SPACE].",
+      "bundlecore:Mighty_Micheal"
+    ]
+  },
+
+  "${modID}:SerumWBoss":{
+    "NAME": "Serum W",
+    "FLAVOR": "Wiz.atb(new YeetPlayerAction());",
+    "DESCRIPTIONS": [
+      "When you gain #yStrength [REMOVE_SPACE], double the amount. NL When you would lose #yStrength [REMOVE_SPACE], gain it instead. NL At the start of combat, gain #b2 #yStrength [REMOVE_SPACE]. NL If you have #b250 or more #yStrength [REMOVE_SPACE], your next attack will end combat.",
+      "bundlecore:Definitive_Darkglade"
+    ]
+  },
+
+  "${modID}:SandgunBoss":{
+    "NAME": "Sandgun",
+    "FLAVOR": "Sand is Overpowered.",
+    "DESCRIPTIONS": [
+      "Upon pickup, add a #ySandgun to your deck.",
+      "bundlecore:Spicy_SandTag"
+    ]
+  },
+
+  "${modID}:VacantContractBoss":{
+    "NAME": "Vacant's Contract",
+    "FLAVOR": "AHAHAHAHAHA! \n FOOOOOOOOL! \n YOU BLEW IT! \n YOU TOTALLY SCREWED YOURSELF!",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain [E] and #y${modID}:Antifact [REMOVE_SPACE].",
+      "bundlecore:Lighthearted_Laugic"
+    ]
+  },
+
+  "${modID}:WitheringSkullBoss":{
+    "NAME": "Dry Wither Skull",
+    "FLAVOR": "It all turns to dust...",
+    "DESCRIPTIONS": [
+      "When you play a card, enemies lose HP equal to the turn count.",
+      "bundlecore:Last_Light"
+    ]
+  },
+
+  "${modID}:EmeraldFeastBoss":{
+    "NAME": "Emerald Feast",
+    "FLAVOR": "50 Onion rings not included.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain [E] [REMOVE_SPACE][E] [REMOVE_SPACE]. NL At the start of combat, ALL enemies gain #b3 #yStrength [REMOVE_SPACE], #yPlated #yArmor and #b16 #yBlock [REMOVE_SPACE].",
+      "bundlecore:Champion_of_Donu"
+    ]
+  },
+
+  "${modID}:DeliciousDecaBoss":{
+    "NAME": "Delicious Deca",
+    "FLAVOR": "A forsaken treat that Deca created by putting concrete sprinkles ontop of a donut... Probably not safe to eat, but you will try anyway.",
+    "DESCRIPTIONS": [
+      "Upon pickup, lose #r1 Max HP. NL At the start of your turn, gain [E] but ALL enemies gain #b2 #yPlated #yArmor [REMOVE_SPACE]. NL #y${modID}:Quest - #pDeca #p${modID}:Destiny [REMOVE_SPACE]. NL #y${modID}:Keybane - #rWound [REMOVE_SPACE].",
+      "bundlecore:Defeated_Donu"
+    ]
+  },
+
+  "${modID}:AwakeningWheelBoss":{
+    "NAME": "Awakening Wheel",
+    "FLAVOR": "Collected feathers apparently from the crow god Mazaleth, it being haphazardly slewn around the spire does not bode well.",
+    "DESCRIPTIONS": [
+      "When you play a #yPower card gain #b2 #yStrength [REMOVE_SPACE]. NL After playing #b13 powers that cost #b1 or more in one combat, gain #yTruest #yPower [REMOVE_SPACE].",
+      "bundlecore:Champion_of_Deca"
+    ]
+  },
+
+  "${modID}:MenacingRavenBoss":{
+    "NAME": "Crow's Calling",
+    "FLAVOR": "A token used to access the secret floor of the spire, apparently the cultists have succeeded in reincarnating their crow god, Mazaleth, you should investigate.",
+    "DESCRIPTIONS": [
+      "Upon pickup, Obtain #yBird #yFaced #yUrn [REMOVE_SPACE], #yEternal #yFeather and all 3 key pieces.  NL #y${modID}:Quest - #rMazaleth #p${modID}:Destiny [REMOVE_SPACE]. NL #y${modID}:Keybane - #rVoid [REMOVE_SPACE].",
+      "bundlecore:Defeated_Deca"
+    ]
+  },
+
+  "${modID}:ManaConverterRare":{
+    "NAME": "Mana Converter",
+    "FLAVOR": "A handy little device that turns leftover energy into a small twinkly star!",
+    "DESCRIPTIONS": [
+      "At the end of turn, if you have [E] [REMOVE_SPACE], add an #yUpgraded #yStarburst into your hand.",
+      "bundlecore:Ambitious_Autumn"
+    ]
+  },
+
+  "${modID}:UpdateBoss":{
+    "NAME": "Card Update",
+    "FLAVOR": "Hello this flavour text panel has been trying to reach you about your mod's extended update schedule...",
+    "DESCRIPTIONS": [
+      "Permanently apply a special upgrade, #ybundlecore:MK2 [REMOVE_SPACE], to #gALL non #rStatus [REMOVE_SPACE], non #pCurse cards.",
+      "bundlecore:Ambitious_Autumn"
+    ]
+  },
+
+  "${modID}:InfiniteContractRare":{
+    "NAME": "Infinite Contract",
+    "FLAVOR": "*Slaps Paper* This contract can fit so much scam in it!",
+    "DESCRIPTIONS": [
+      "When you climb a floor, gain #b5 gold and increase this by #b1 [REMOVE_SPACE]. Spending gold resets and inverts this effect #rPermanently [REMOVE_SPACE].",
+      "bundlecore:Blank_Blank"
+    ]
+  },
+
+  "${modID}:WaveIronBoss":{
+    "NAME": "Wave of the Iron",
+    "FLAVOR": "Oops! All iron waves!",
+    "DESCRIPTIONS": [
+      "At the start of your turn draw #b1 card and lose [E] [REMOVE_SPACE]. NL #ySkills give no #yBlock [REMOVE_SPACE]. NL Gain block equal to unblocked #yAttack damage. NL Reduce your non-wave damage by #r35% [REMOVE_SPACE].",
+      "bundlecore:Great_GK"
+    ]
+  },
+
+  "${modID}:TemporalTimepieceBoss":{
+    "NAME": "Temporal Timepiece",
+    "FLAVOR": "The potion seller has reported that thieves have been using time distorting watches to rob her stashes, it seems this one was left behind...",
+    "DESCRIPTIONS": [
+      "At the start of combat gain #rTime #rWarp [REMOVE_SPACE]. NL At the end of your turn, gain [E] [REMOVE_SPACE][E] next turn. NL #y${modID}:Quest - #pTime #pEater #p${modID}:Destiny [REMOVE_SPACE]. NL #y${modID}:Keybane - #rDazed [REMOVE_SPACE].",
+      "bundlecore:Defeated_Donu"
+    ]
+  },
+
+  "${modID}:CursedBrandBoss":{
+    "NAME": "Brand of the Collector",
+    "FLAVOR": "The collector is rumoured to be the buyer of the stolen potion schematics, with this brand you can find her hideout...",
+    "DESCRIPTIONS": [
+      "Before the start of combat, gain #b1 #yWeak [REMOVE_SPACE], #yVulnerable and #yFrail [REMOVE_SPACE]. NL At the start of your turn, gain [E] [REMOVE_SPACE]. NL #y${modID}:Quest - #pCollector #p${modID}:Destiny [REMOVE_SPACE]. NL #y${modID}:Keybane - #rWound [REMOVE_SPACE].",
+      "bundlecore:Defeated_Time"
+    ]
+  },
+
+  "${modID}:StimulantRShop":{
+    "NAME": "Stimulant R",
+    "FLAVOR": "Used by the Thieves guild to make a quick getaway, those without protective enchantments will become insane upon consumption",
+    "DESCRIPTIONS": [
+      "When you drink a potion, enter #yWrath [REMOVE_SPACE]. NL #ySynergy: #y${modID}:Mageblood_Stimulant_R [REMOVE_SPACE].",
+      "bundlecore:Defeated_Time"
+    ]
+  },
+
+  "${modID}:BrewcyclerRare":{
+    "NAME": "Brewcycler",
+    "FLAVOR": "Ever wondered whats inside the box? Looks like someone has been using it to blend potions, why don't you try it?",
+    "DESCRIPTIONS": [
+      "The first #b2 times you discard a potion each combat, add a random potion to the rewards. NL It can be of #yLegendary rarity. NL Occasionally produces something #pOdd [REMOVE_SPACE].",
+      "bundlecore:Champion_Of_Time"
+    ]
+  },
+
+  "${modID}:RadiantCircletEvent":{
+    "NAME": "Radiant Circlet",
+    "FLAVOR": "You can unlock more quest relics by completing existing quests, most quests are tied to specific bundles.",
+    "DESCRIPTIONS": [
+      "There are no quest relics available. NL At the start of your turn, draw 1 additional card."
+    ]
+  },
+
+  "${modID}:SingularityBoss":{
+    "NAME": "Singularity",
+    "FLAVOR": "The end is nigh...",
+    "DESCRIPTIONS": [
+      "#ybundlecore:Rare NL Cards are #b65% stronger, which can round up, but #rExhaust [REMOVE_SPACE]."
+    ]
+  },
+
+  "${modID}:DualityDraughtRare":{
+    "NAME": "Draught of Duality",
+    "FLAVOR": "Greater than the sum of its parts.",
+    "DESCRIPTIONS": [
+      "Every #b10 times you play a card with a #ybundlecore:Cardmod [REMOVE_SPACE], draw #b1 card and gain [E] [REMOVE_SPACE]."
+    ]
+  },
+
+  "${modID}:ModificationKitCommon":{
+    "NAME": "Modification Kit",
+    "FLAVOR": "With the correct tools, no job is too tough for a spire climber!",
+    "DESCRIPTIONS": [
+      "Cards with a #ybundlecore:Cardmod have #b1 more damage and #yBlock [REMOVE_SPACE]."
+    ]
+  },
+
+  "${modID}:JarOfMarmaladeShop":{
+    "NAME": "Pot of Marmalade Tea",
+    "FLAVOR": "Sweet yet astringent, it can take a while to get past the strong taste.",
+    "DESCRIPTIONS": [
+      "Heal #b6 HP and gain #b1 Max HP on pickup. NL At the start of your turn, a random card in hand is #rForced to gain #ybundlecore:Supplier [REMOVE_SPACE]."
+    ]
+  },
+
+  "${modID}:BottledModsUncommon":{
+    "NAME": "Concentrated Bottled Force",
+    "FLAVOR": "A bottle filled with distilled force brew, it seems to have a more reliable effect... thankfully...",
+    "DESCRIPTIONS": [
+      "Upon pickup, chose a card. NL This card gains #yRetain [REMOVE_SPACE], #ybundlecore:Quickdraw [REMOVE_SPACE] and #yExhaustive #b2 [REMOVE_SPACE].",
+      "Select a card to put inside ",
+      " is inside of the bottled of concentrated force."
+    ]
+  },
+
+  "${modID}:FanMailCommon":{
+    "NAME": "Fan Mail",
+    "FLAVOR": "We just got a letter...",
+    "DESCRIPTIONS": [
+      "After playing #b137 cards with #ybundlecore:Cardmod destroy this relic and obtain a random rare relic. NL If you get lucky you might find something special instead."
+    ]
+  },
+  "${modID}:CursedMirrorRare":{
+    "NAME": "Cursed Mirror",
+    "FLAVOR": "I can see the better half of... me?",
+    "DESCRIPTIONS": [
+      "The first time you play a card with a #ybundlecore:Cardmod each turn, add a duplicate of the card to the bottom of your draw pile."
+    ]
+  },
+  "${modID}:BifurkiteBoss":{
+    "NAME": "Bifurkite",
+    "FLAVOR": "This is getting out of hand, now there are two of them!",
+    "DESCRIPTIONS": [
+      "The first time you play a card with a #ybundlecore:Cardmod each turn, gain [E] [REMOVE_SPACE]."
+    ]
+  },
+  "${modID}:ModSoupBoss":{
+    "NAME": "Mod Soup",
+    "FLAVOR": "Too many chefs added to the broth, i mean who let them cook like this.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain [E] and #rForce a card in your hand to become #rbundlecore:Soupy [REMOVE_SPACE].",
+      "Upon Pickup, gain #b14 Max HP. NL At the start of your turn, gain [E] and #rForce a card in your hand to become #rbundlecore:Soupy [REMOVE_SPACE]."
+    ]
+  }
+}

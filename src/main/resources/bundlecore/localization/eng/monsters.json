@@ -1,0 +1,103 @@
+{
+  "${modID}:Cursed_DecaFinalBoss": {
+    "MOVES": [
+      "Ascender's Diamond of Deflection",
+      "Diamond Break",
+      "Final Prism"
+    ],
+    "NAME": "Wide Daddy Deca The Beta",
+    "DIALOG": [
+      "#gLIVE...",
+      "#gIT... #gIS...",
+      "#rIT #rHARMS #rFRIENDS?",
+      "#rDIE!",
+      "#g~Friend...~"
+    ]
+  },
+
+  "${modID}:TimeussuyExpress":{
+    "MOVES": [
+      "Temporal Shockwave",
+      "Big Smash",
+      "Hindering Dilation",
+      "Lesser Recovery",
+      "Greater Recovery",
+      "Temporal Resurrection"
+    ],
+    "NAME": "Titanic Time Eater The Tocking",
+    "DIALOG": [
+      "... Visitors..? Lets... Dance...",
+      "... Quite... Foolish...",
+      "... Not... You... Again...",
+      "... Ehh?",
+      "... Fiesty... Are we...",
+      "... Time can... Go back...",
+      "... How long... Can it endure...",
+      "... It... Tires me...",
+      "... It Seeks... To know things... From Me...",
+      "... Collector has... Stolen Goods... Confront her..."
+    ]
+  },
+
+  "${modID}:StonksTorchhead": {
+    "MOVES": [
+      "Inferno Impact",
+      "Blasting Bash",
+      "Superheated Slash",
+      "Furious Flare",
+      "Rigorous Reforge"
+    ],
+    "NAME": "Giant Brazierhead",
+    "DIALOG": [
+      ""
+    ]
+  },
+
+  "${modID}:BigGothCollector": {
+    "MOVES": [
+      "Heartbeat Vial, Thonkerbottle & Regen Potion",
+      "Snake™ & Foxy Shot",
+      "Pickle Juice & Garlic Bottle",
+      "Omega Extract & Impostor Extract",
+      "Sticky Tar Jar & Bunker in a Bottle",
+      "Reaper Bottle & Tossable Smoke Bomb",
+      "Supreme Soulrending Salsa",
+      "Spirit Summoning"
+    ],
+    "NAME": "Kublai the Collector",
+    "DIALOG": [
+      "Another pet for ~my~ collection...",
+      "Their souls are disposable dear.",
+      "How about another pair of sweet darlings...",
+      "A party at the top of the spire perhaps?",
+      "Hmm deary my patience is weary awfully thin...",
+      "Enough talk. Have at you!",
+      "Still standing? truly exceptional!"
+    ]
+  },
+
+  "${modID}:BeeeeegGuardian":{
+    "MOVES":[
+      "Flaming Flashbang",
+      "Almighty Ash Hammer",
+      "Double Drainer",
+      "Rolly Ripper",
+      "Cataclysmic Cyclone",
+      "Bunker Brace",
+      "Vile Ventilation",
+      "Gemstone Cannonade",
+      "Sleeping..."
+    ],
+    "NAME":"Gracedia the Guardian",
+    "DIALOG":[
+      "_",
+      "Defense Mode Activated",
+      "#r@ANHIALATE!@",
+      "z... z... z...",
+      "#r@SARCASM@ #r@DETECTED...@ #r@DESTROY@",
+      "#r?!?!?!?!",
+      "#r@INTITIATE@ #r@GEMSTONE@ #r@PROTOCOL@"
+    ]
+  }
+
+}
